@@ -14,7 +14,7 @@ pip install pycryptodome
 
 ## Running the tests
 ### produce initial parameters with open ssl
-with this command in Openssl, two public parameters for DH algorithm will produced and see them.
+with this command in Openssl, two public parameters for DH algorithm will produce and with next command we can see them.
 ```
 dhparam -out dhp.pem 128
 pkeyparam -in dhp.pem -text
